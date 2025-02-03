@@ -3,7 +3,7 @@ using UserRegister.Models;
 
 namespace UserRegister.Controllers
 {
-    public class UsuarioController : Controller
+    public class UserController : Controller
     {
         [HttpPost]
         public IActionResult Salvar([FromBody] User user)
